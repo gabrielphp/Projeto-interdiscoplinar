@@ -1,0 +1,66 @@
+.cabecalho {
+	background-color: #5F9EA0;
+}
+
+
+.centro{
+	margin-right: 30%;
+	margin-left: 30%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	align-items: center;
+}
+.centroItens{
+	margin-top: 5%;
+}
+
+.texto{
+	text-align: center;
+}
+
+#especial{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 0 auto;
+}
+#especial div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+#especial p{
+	line-height: 1.5;
+	margin: 2vh;
+	font-size: 1.1em;
+}
+#especial img{
+	margin: 10px 0;
+}
+#especial h2{
+	font-size: 3em;
+	font-family: 'Amatic SC', cursive;
+}
+#especial{
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin: 0 auto;
+}
+#especial h2{
+		text-align: center;
+		width: 100%
+}
+#especial div{
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px; 
+		font-family: 'Raleway', sans-serif;
+		padding-left: 15px;
+		padding-right: 15px;
+		line-height: 1.5;
+}
